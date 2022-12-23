@@ -12,4 +12,3 @@ while (num2 != 0)
     num2 = num2 / 10;
 }
 Write(result == num ? "YES" : "NO");
-return;
