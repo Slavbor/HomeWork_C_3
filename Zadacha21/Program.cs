@@ -18,5 +18,4 @@ long y2 = long.Parse(ReadLine()!);
 Write("Enter z coordinates for 2nd point : ");
 long z2 = long.Parse(ReadLine()!);
 
-double distance = (Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2) + Math.Pow(z1 - z2, 2)));
-WriteLine($"Distance between two point: {distance:f2}");
+WriteLine($"Distance between two point: {((Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2) + Math.Pow(z1 - z2, 2)))):f2}");
