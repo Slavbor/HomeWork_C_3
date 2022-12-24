@@ -7,9 +7,8 @@ while (i <= num)
 {
     Write(Math.Pow(i, 3));
     i++;
-    if(i <= num)
+    if (i <= num)
     {
         Write(", ");
     }
-    
 }
